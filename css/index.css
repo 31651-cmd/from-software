@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 2vh;
+    margin-top: 3vh;
+    color: black;
+    }
+
+.opcoes{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    flex-wrap: wrap;
+}
+
+.cartao{
+    background-color: fff;
+    border-radius: 12px;
+    padding: 20px;
+    width: 20px;
+    cursor: pointer;
+    border: 3px solid transparent;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: border-color 0.2s,;
+}
